@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="49.477" tests="7" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rajprajapati/CascadeProjects/Playwright_With_Java/target/test-classes:/Users/rajprajapati/CascadeProjects/Playwright_With_Java/target/classes:/Users/rajprajapati/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/rajprajapati/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/rajprajapati/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/rajprajapati/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/rajprajapati/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/rajprajapati/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/rajprajapati/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/rajprajapati/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/rajprajapati/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rajprajapati/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rajprajapati/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/rajprajapati/CascadeProjects/Playwright_With_Java/target/surefire/surefirebooter-20250420232151830_3.jar /Users/rajprajapati/CascadeProjects/Playwright_With_Java/target/surefire 2025-04-20T23-21-51_771-jvmRun1 surefire-20250420232151830_1tmp surefire_0-20250420232151830_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/rajprajapati/CascadeProjects/Playwright_With_Java/target/test-classes:/Users/rajprajapati/CascadeProjects/Playwright_With_Java/target/classes:/Users/rajprajapati/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/rajprajapati/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/rajprajapati/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/rajprajapati/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/rajprajapati/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/rajprajapati/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/rajprajapati/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/rajprajapati/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rajprajapati/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/rajprajapati/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/rajprajapati/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rajprajapati/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rajprajapati/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rajprajapati"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/rajprajapati/CascadeProjects/Playwright_With_Java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/rajprajapati/CascadeProjects/Playwright_With_Java/target/surefire/surefirebooter-20250420232151830_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="rajprajapati"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/rajprajapati/.m2/repository"/>
+    <property name="cucumber.options" value="src/test/resources/features/Search.feature"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/rajprajapati/CascadeProjects/Playwright_With_Java"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rajprajapati/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Successful login with valid credentials&quot;, &quot;Login and UI Elements&quot;](1)" classname="runners.TestRunner" time="16.863">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepdefinitions.LoginSteps.should_see_in_header(LoginSteps.java:22)
+	at ✽.I should see "My account" in the header(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Login.feature:8)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Successful login with valid credentials               &amp#27;[90m# src/test/resources/features/Login.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the nopCommerce demo homepage&amp#27;[0m                    &amp#27;[90m# stepdefinitions.CommonSteps.open_homepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Log in"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                             &amp#27;[90m# stepdefinitions.CommonSteps.click_link(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"testuser@demo.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test@123"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.enter_credentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Log in"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                               &amp#27;[90m# stepdefinitions.CommonSteps.click_button(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see &amp#27;[0m&amp#27;[31m&amp#27;[1m"My account"&amp#27;[0m&amp#27;[31m in the header&amp#27;[0m                  &amp#27;[90m# stepdefinitions.LoginSteps.should_see_in_header(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepdefinitions.LoginSteps.should_see_in_header(LoginSteps.java:22)
+	at ✽.I should see "My account" in the header(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Login.feature:8)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Apr 20, 2025 11:21:52 PM io.cucumber.core.options.CucumberPropertiesParser lambda$warnWhenCucumberOptionsIsUsed$2
+WARNING: Passing commandline options via the property 'cucumber.options' is no longer supported. Please use individual properties instead. See the java doc on io.cucumber.core.options.Constants for details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for a product&quot;, &quot;Login and UI Elements&quot;](2)" classname="runners.TestRunner" time="24.492">
+    <failure message="The step &apos;I click the search button&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I click the search button&quot;)&#10;public void i_click_the_search_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I click the search button' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I click the search button")
+public void i_click_the_search_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Search for a product                  &amp#27;[90m# src/test/resources/features/Login.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the nopCommerce demo homepage&amp#27;[0m    &amp#27;[90m# stepdefinitions.CommonSteps.open_homepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m"laptop"&amp#27;[0m&amp#27;[32m in the search box&amp#27;[0m       &amp#27;[90m# stepdefinitions.LoginSteps.enter_search(java.lang.String)&amp#27;[0m
+  &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mI click the search button&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see search results for &amp#27;[0m&amp#27;[36m&amp#27;[1m"laptop"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.should_see_search_results(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Interact with different UI elements&quot;, &quot;Login and UI Elements&quot;](3)" classname="runners.TestRunner" time="2.934">
+    <failure message="Error {&#10;  message=&apos;Target page, context or browser has been closed&#10;  name=&apos;TargetClosedError&#10;  stack=&apos;TargetClosedError: Target page, context or browser has been closed&#10;    at DispatcherConnection.dispatch (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/dispatchers/dispatcher.js:375:15)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;ul.top-menu a:has-text(&apos;Books&apos;)&quot;)&#10;-   locator resolved to 4 elements. Proceeding with the first one: &lt;a href=&quot;/notebooks&quot;&gt;Notebooks &lt;/a&gt;&#10;- attempting click action&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #1&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #2&#10;-   waiting 20ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #3&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #4&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #5&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #6&#10;-   waiting 500ms&#10;" type="com.microsoft.playwright.impl.TargetClosedError"><![CDATA[com.microsoft.playwright.impl.TargetClosedError: 
+Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/dispatchers/dispatcher.js:375:15)
+}
+Call log:
+- waiting for locator("ul.top-menu a:has-text('Books')")
+-   locator resolved to 4 elements. Proceeding with the first one: <a href="/notebooks">Notebooks </a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$18(PageImpl.java:677)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:676)
+	at com.microsoft.playwright.Page.click(Page.java:3952)
+	at pageobjects.HomePage.selectMenu(HomePage.java:25)
+	at stepdefinitions.LoginSteps.select_menu(LoginSteps.java:39)
+	at ✽.I select "Books" from the top menu(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Login.feature:18)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/dispatchers/dispatcher.js:375:15)
+}
+Call log:
+- waiting for locator("ul.top-menu a:has-text('Books')")
+-   locator resolved to 4 elements. Proceeding with the first one: <a href="/notebooks">Notebooks </a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$18(PageImpl.java:677)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:676)
+	at com.microsoft.playwright.Page.click(Page.java:3952)
+	at pageobjects.HomePage.selectMenu(HomePage.java:25)
+	at stepdefinitions.LoginSteps.select_menu(LoginSteps.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Interact with different UI elements &amp#27;[90m# src/test/resources/features/Login.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the nopCommerce demo homepage&amp#27;[0m  &amp#27;[90m# stepdefinitions.CommonSteps.open_homepage()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI select &amp#27;[0m&amp#27;[31m&amp#27;[1m"Books"&amp#27;[0m&amp#27;[31m from the top menu&amp#27;[0m     &amp#27;[90m# stepdefinitions.LoginSteps.select_menu(java.lang.String)&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/dispatchers/dispatcher.js:375:15)
+}
+Call log:
+- waiting for locator("ul.top-menu a:has-text('Books')")
+-   locator resolved to 4 elements. Proceeding with the first one: <a href="/notebooks">Notebooks </a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$18(PageImpl.java:677)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:676)
+	at com.microsoft.playwright.Page.click(Page.java:3952)
+	at pageobjects.HomePage.selectMenu(HomePage.java:25)
+	at stepdefinitions.LoginSteps.select_menu(LoginSteps.java:39)
+	at ✽.I select "Books" from the top menu(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Login.feature:18)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/dispatchers/dispatcher.js:375:15)
+}
+Call log:
+- waiting for locator("ul.top-menu a:has-text('Books')")
+-   locator resolved to 4 elements. Proceeding with the first one: <a href="/notebooks">Notebooks </a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$18(PageImpl.java:677)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:676)
+	at com.microsoft.playwright.Page.click(Page.java:3952)
+	at pageobjects.HomePage.selectMenu(HomePage.java:25)
+	at stepdefinitions.LoginSteps.select_menu(LoginSteps.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI sort products by &amp#27;[0m&amp#27;[36m&amp#27;[1m"Price: Low to High"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.sort_products(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI add the first book to the cart&amp#27;[0m        &amp#27;[90m# stepdefinitions.LoginSteps.add_first_book_to_cart()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe shopping cart should have &amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m item&amp#27;[0m   &amp#27;[90m# stepdefinitions.LoginSteps.cart_should_have_items(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Register a new user with valid details&quot;, &quot;User Registration&quot;](4)" classname="runners.TestRunner" time="1.532">
+    <failure message="Error {&#10;  message=&apos;net::ERR_ABORTED; maybe frame was detached?&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_ABORTED; maybe frame was detached?&#10;    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)&#10;    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)&#10;    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)&#10;    at CRSession.emit (node:events:518:28)&#10;    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14&#10;}&#10;Call log:&#10;- navigating to &quot;https://demo.nopcommerce.com/&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Register.feature:4)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Register a new user with valid details                  &amp#27;[90m# src/test/resources/features/Register.feature:3&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI open the nopCommerce demo homepage&amp#27;[0m                      &amp#27;[90m# stepdefinitions.CommonSteps.open_homepage()&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.PlaywrightException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Register.feature:4)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Register"&amp#27;[0m&amp#27;[36m link&amp#27;[0m                             &amp#27;[90m# stepdefinitions.CommonSteps.click_link(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI select gender &amp#27;[0m&amp#27;[36m&amp#27;[1m"Male"&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.RegisterSteps.select_gender(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter first name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Raj"&amp#27;[0m&amp#27;[36m and last name &amp#27;[0m&amp#27;[36m&amp#27;[1m"Prajapati"&amp#27;[0m          &amp#27;[90m# stepdefinitions.RegisterSteps.enter_names(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter email &amp#27;[0m&amp#27;[36m&amp#27;[1m"raj.qa.demo+1@gmail.com"&amp#27;[0m                     &amp#27;[90m# stepdefinitions.RegisterSteps.enter_email(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter password &amp#27;[0m&amp#27;[36m&amp#27;[1m"Test@123"&amp#27;[0m&amp#27;[36m and confirm password &amp#27;[0m&amp#27;[36m&amp#27;[1m"Test@123"&amp#27;[0m &amp#27;[90m# stepdefinitions.RegisterSteps.enter_passwords(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Register"&amp#27;[0m&amp#27;[36m button&amp#27;[0m                               &amp#27;[90m# stepdefinitions.CommonSteps.click_button(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see &amp#27;[0m&amp#27;[36m&amp#27;[1m"Your registration completed"&amp#27;[0m&amp#27;[36m message&amp#27;[0m         &amp#27;[90m# stepdefinitions.RegisterSteps.should_see_message(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for an existing product&quot;, &quot;Product Search&quot;](5)" classname="runners.TestRunner" time="1.127">
+    <failure message="Error {&#10;  message=&apos;net::ERR_ABORTED; maybe frame was detached?&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_ABORTED; maybe frame was detached?&#10;    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)&#10;    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)&#10;    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)&#10;    at CRSession.emit (node:events:518:28)&#10;    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14&#10;}&#10;Call log:&#10;- navigating to &quot;https://demo.nopcommerce.com/&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Search.feature:7)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Search for an existing product        &amp#27;[90m# src/test/resources/features/Search.feature:6&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI open the nopCommerce demo homepage&amp#27;[0m    &amp#27;[90m# stepdefinitions.CommonSteps.open_homepage()&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.PlaywrightException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Search.feature:7)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter &amp#27;[0m&amp#27;[36m&amp#27;[1m"laptop"&amp#27;[0m&amp#27;[36m in the search box&amp#27;[0m       &amp#27;[90m# stepdefinitions.LoginSteps.enter_search(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the search button&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see search results for &amp#27;[0m&amp#27;[36m&amp#27;[1m"laptop"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.should_see_search_results(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for a non-existent product&quot;, &quot;Product Search&quot;](6)" classname="runners.TestRunner" time="0.982">
+    <failure message="Error {&#10;  message=&apos;net::ERR_ABORTED; maybe frame was detached?&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_ABORTED; maybe frame was detached?&#10;    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)&#10;    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)&#10;    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)&#10;    at CRSession.emit (node:events:518:28)&#10;    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14&#10;}&#10;Call log:&#10;- navigating to &quot;https://demo.nopcommerce.com/&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Search.feature:13)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Search for a non-existent product          &amp#27;[90m# src/test/resources/features/Search.feature:12&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI open the nopCommerce demo homepage&amp#27;[0m         &amp#27;[90m# stepdefinitions.CommonSteps.open_homepage()&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.PlaywrightException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Search.feature:13)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter &amp#27;[0m&amp#27;[36m&amp#27;[1m"xyznotfound"&amp#27;[0m&amp#27;[36m in the search box&amp#27;[0m       &amp#27;[90m# stepdefinitions.LoginSteps.enter_search(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the search button&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see search results for &amp#27;[0m&amp#27;[36m&amp#27;[1m"xyznotfound"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.should_see_search_results(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search with an empty query&quot;, &quot;Product Search&quot;](7)" classname="runners.TestRunner" time="0.8">
+    <failure message="Error {&#10;  message=&apos;net::ERR_ABORTED; maybe frame was detached?&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_ABORTED; maybe frame was detached?&#10;    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)&#10;    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)&#10;    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)&#10;    at CRSession.emit (node:events:518:28)&#10;    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14&#10;}&#10;Call log:&#10;- navigating to &quot;https://demo.nopcommerce.com/&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Search.feature:19)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Search with an empty query         &amp#27;[90m# src/test/resources/features/Search.feature:18&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI open the nopCommerce demo homepage&amp#27;[0m &amp#27;[90m# stepdefinitions.CommonSteps.open_homepage()&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.PlaywrightException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at ✽.I open the nopCommerce demo homepage(file:///Users/rajprajapati/CascadeProjects/Playwright_With_Java/src/test/resources/features/Search.feature:19)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_ABORTED; maybe frame was detached?
+  name='Error
+  stack='Error: net::ERR_ABORTED; maybe frame was detached?
+    at FrameManager.frameAbortedNavigation (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:216:14)
+    at FrameManager.requestFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/frames.js:276:12)
+    at CRNetworkManager._onLoadingFailed (/private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crNetworkManager.js:511:134)
+    at CRSession.emit (node:events:518:28)
+    at /private/var/folders/sr/vtqrlkwn2t51ng8f2prxmvc40000gn/T/playwright-java-15833966131205632047/package/lib/server/chromium/crConnection.js:160:14
+}
+Call log:
+- navigating to "https://demo.nopcommerce.com/", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at stepdefinitions.CommonSteps.open_homepage(CommonSteps.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m&amp#27;[36m in the search box&amp#27;[0m          &amp#27;[90m# stepdefinitions.LoginSteps.enter_search(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the search button&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should see search results for &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m    &amp#27;[90m# stepdefinitions.LoginSteps.should_see_search_results(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
